@@ -1,6 +1,5 @@
 # React/Django Tic-Tac-Toe
 
-## Setup
 ### Running backend:
   python3 -m venv env  
   source env/bin/activate  
