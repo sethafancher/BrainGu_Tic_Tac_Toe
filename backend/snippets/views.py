@@ -9,8 +9,10 @@ class SnippetView(APIView):
     serializer_class = SnippetSerializer
   
     def get(self, request):
-        detail = [ {"id": detail.id, "winner": detail.winner}
-        for detail in Snippet.objects.all()]
+        detail = [
+            {"Round": detail.id, "Winner": detail.winner}
+        for detail in Snippet.objects.all()
+        ]
         return Response(detail)
   
     def post(self, request):
