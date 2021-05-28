@@ -1,0 +1,98 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 0px;
+  list-style: none
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: rgb(173, 173, 173);
+  border: 3px solid rgb(255, 255, 255);
+  float: left;
+  color:black;
+  font-size: 105pt;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.square2 {
+  background: rgb(131, 130, 130);
+  border: 3px solid rgb(255, 255, 255);
+  float: left;
+  color:black;
+  font-size: 105pt;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.square:hover {
+  background: rgb(131, 130, 130);
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 30pt;
+  font-family: "arial";
+}
+
+.revertButton {
+  height: 50px;
+  width: 245px;
+  background: rgb(253, 133, 0);
+  border: 1px solid rgb(253, 133, 0);
+  font-size:14pt;
+  font-family: "arial";
+  color:white;
+  border-radius: 8px;
+  
+}
+
+.revertButton:hover {
+  color: white;
+  background: rgb(209, 102, 2);
+}
+
+.title {
+  font-size:20pt;
+  text-align: center;
+  font-family: "arial";
+}
