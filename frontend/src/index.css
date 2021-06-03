@@ -51,7 +51,7 @@ ol, ul {
 }
 
 .square:hover {
-  background: rgb(184, 184, 184);
+  background: rgb(177, 176, 176);
 }
 
 .square:focus {
@@ -87,7 +87,7 @@ ol, ul {
 
 .revertButton:hover {
   color: white;
-  background: rgb(209, 102, 2);
+  background: rgb(223, 120, 2);
 }
 
 .title {
